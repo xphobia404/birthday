@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ucapan ulang tahun romantis untuk Juliana Sihombing dengan foto, musik, dan video kenangan." />
+  <title>Ucapan Ulang Tahun Juliana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.75rem);
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1.25rem;
+      --radius-xl: 1.75rem;
+      --radius-full: 9999px;
+      --color-bg: #fff8fb;
+      --color-surface: #fffdfd;
+      --color-surface-2: #fff3f7;
+      --color-surface-offset: #ffe7ef;
+      --color-border: rgba(124, 68, 92, 0.16);
+      --color-divider: rgba(124, 68, 92, 0.12);
+      --color-text: #3c2230;
+      --color-text-muted: #7b5b69;
+      --color-text-faint: #b694a4;
+      --color-primary: #c14d7c;
+      --color-primary-hover: #a53b67;
+      --color-primary-highlight: #ffd7e6;
+      --color-accent: #f2b5c9;
+      --color-card-glow: rgba(193, 77, 124, 0.12);
+      --shadow-sm: 0 10px 30px rgba(128, 68, 90, 0.08);
+      --shadow-lg: 0 20px 60px rgba(128, 68, 90, 0.14);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Plus Jakarta Sans', Arial, sans-serif;
+    }
+
+    [data-theme="dark"] {
+      --color-bg: #1e151a;
+      --color-surface: #261b21;
+      --color-surface-2: #31232a;
+      --color-surface-offset: #3a2831;
+      --color-border: rgba(255, 220, 232, 0.12);
+      --color-divider: rgba(255, 220, 232, 0.08);
+      --color-text: #fff1f6;
+      --color-text-muted: #d3b7c3;
+      --color-text-faint: #a98797;
+      --color-primary: #ff82af;
+      --color-primary-hover: #ff9bbf;
+      --color-primary-highlight: rgba(255, 130, 175, 0.14);
+      --color-accent: #70384f;
+      --color-card-glow: rgba(255, 130, 175, 0.12);
+      --shadow-sm: 0 12px 28px rgba(0, 0, 0, 0.28);
+      --shadow-lg: 0 24px 70px rgba(0, 0, 0, 0.36);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      min-height: 100vh;
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      background:
+        radial-gradient(circle at top left, rgba(255, 183, 210, 0.35), transparent 32%),
+        radial-gradient(circle at top right, rgba(255, 218, 228, 0.45), transparent 28%),
+        linear-gradient(180deg, var(--color-bg), var(--color-surface-2));
+      line-height: 1.7;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    button, a { transition: 180ms ease; }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+    }
+    .skip-link {
+      position: absolute; left: var(--space-4); top: -40px; background: var(--color-primary);
+      color: white; padding: var(--space-3) var(--space-4); border-radius: var(--radius-full); z-index: 100;
+      text-decoration: none;
+    }
+    .skip-link:focus { top: var(--space-4); }
+    .container { width: min(1120px, calc(100% - 2rem)); margin: 0 auto; }
+
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      backdrop-filter: blur(14px);
+      background: color-mix(in srgb, var(--color-bg) 84%, transparent);
+      border-bottom: 1px solid var(--color-divider);
+    }
+    .topbar-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: var(--space-4) 0;
+      gap: var(--space-4);
+    }
+    .brand {
+      display: inline-flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm); font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .brand-mark {
+      width: 42px; height: 42px; border-radius: 50%;
+      display: grid; place-items: center; color: white;
+      background: linear-gradient(135deg, var(--color-primary), #f08db2);
+      box-shadow: var(--shadow-sm);
+    }
+    .theme-toggle {
+      min-width: 44px; min-height: 44px; border-radius: 50%; border: 1px solid var(--color-border);
+      background: var(--color-surface); color: var(--color-text); cursor: pointer;
+      display: grid; place-items: center;
+    }
+
+    .hero {
+      padding: clamp(4rem, 10vw, 7rem) 0 var(--space-16);
+    }
+    .hero-grid {
+      display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-8); align-items: center;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: var(--space-2); padding: 0.55rem 1rem;
+      border-radius: var(--radius-full); background: var(--color-primary-highlight); color: var(--color-primary);
+      font-size: var(--text-sm); font-weight: 700; margin-bottom: var(--space-5);
+    }
+    h1 {
+      font-family: var(--font-display); font-size: var(--text-2xl); line-height: 1.08; margin-bottom: var(--space-5);
+      max-width: 12ch;
+    }
+    .hero p {
+      max-width: 60ch; color: var(--color-text-muted); margin-bottom: var(--space-6);
+    }
+    .hero-actions {
+      display: flex; flex-wrap: wrap; gap: var(--space-3);
+    }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center; min-height: 48px;
+      padding: 0.9rem 1.3rem; border-radius: var(--radius-full); text-decoration: none;
+      font-size: var(--text-sm); font-weight: 700;
+    }
+    .button-primary { background: var(--color-primary); color: white; }
+    .button-primary:hover { background: var(--color-primary-hover); transform: translateY(-1px); }
+    .button-secondary {
+      border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text);
+    }
+    .button-secondary:hover { background: var(--color-surface-2); }
+
+    .hero-card {
+      background: color-mix(in srgb, var(--color-surface) 92%, white);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-6);
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+    }
+    .hero-card::before {
+      content: "";
+      position: absolute; inset: auto -20% -30% auto; width: 220px; height: 220px; border-radius: 50%;
+      background: var(--color-card-glow); filter: blur(8px); z-index: -1;
+    }
+    .couple-frame {
+      aspect-ratio: 4 / 5; border-radius: calc(var(--radius-xl) - 0.5rem); overflow: hidden;
+      border: 1px solid var(--color-border); background: var(--color-surface-offset); position: relative;
+    }
+    .couple-frame img { width: 100%; height: 100%; object-fit: cover; }
+    .photo-note {
+      position: absolute; left: var(--space-4); bottom: var(--space-4);
+      background: rgba(255,255,255,0.85); color: #6d3450; padding: 0.7rem 0.95rem;
+      border-radius: 1rem; font-size: var(--text-xs); font-weight: 700; backdrop-filter: blur(8px);
+    }
+
+    section { padding: var(--space-10) 0; }
+    .section-title { font-family: var(--font-display); font-size: var(--text-xl); margin-bottom: var(--space-3); }
+    .section-copy { color: var(--color-text-muted); max-width: 62ch; margin-bottom: var(--space-8); }
+
+    .message-grid {
+      display: grid; grid-template-columns: 1fr 0.9fr; gap: var(--space-8);
+    }
+    .letter-card, .wish-card, .gallery-card, .tips-card {
+      background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-sm);
+    }
+    .letter-card { padding: clamp(1.5rem, 4vw, 2.5rem); }
+    .letter-card p + p { margin-top: var(--space-4); }
+    .signature {
+      margin-top: var(--space-6); color: var(--color-primary); font-weight: 700;
+    }
+    .wish-card { padding: var(--space-6); }
+    .wish-list { list-style: none; display: grid; gap: var(--space-4); }
+    .wish-list li {
+      display: flex; gap: var(--space-3); align-items: flex-start; color: var(--color-text-muted);
+    }
+    .wish-list span {
+      width: 30px; height: 30px; flex: 0 0 30px; border-radius: 50%; display: grid; place-items: center;
+      background: var(--color-primary-highlight); color: var(--color-primary); font-size: var(--text-xs); font-weight: 700;
+    }
+
+    .gallery-card { padding: var(--space-6); }
+    .gallery-grid {
+      display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--space-4);
+    }
+    .photo-slot {
+      grid-column: span 4; min-height: 220px; border-radius: var(--radius-lg); overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.5), rgba(255,255,255,0.15)),
+        var(--color-surface-offset);
+      border: 1px dashed color-mix(in srgb, var(--color-primary) 30%, white);
+      position: relative;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);
+    }
+    .photo-slot.large { grid-column: span 6; min-height: 280px; }
+    .photo-slot img { width: 100%; height: 100%; object-fit: cover; }
+    .slot-label {
+      position: absolute; inset: auto var(--space-4) var(--space-4) var(--space-4);
+      padding: 0.85rem 1rem; border-radius: 1rem; color: var(--color-text);
+      background: color-mix(in srgb, var(--color-surface) 88%, transparent); backdrop-filter: blur(10px);
+      font-size: var(--text-xs); border: 1px solid rgba(255,255,255,0.24);
+    }
+
+    .closing-layout {
+      display: grid; grid-template-columns: 0.95fr 1.05fr; gap: var(--space-8);
+      align-items: start;
+    }
+    .mini-gallery {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4);
+    }
+    .mini-gallery .photo-slot { min-height: 180px; grid-column: span 1; }
+    .tips-card { padding: var(--space-6); }
+    .tips-card ol { padding-left: 1.2rem; color: var(--color-text-muted); display: grid; gap: var(--space-3); }
+    .tips-card code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em;
+      background: var(--color-surface-2); padding: 0.15rem 0.4rem; border-radius: 0.4rem;
+    }
+
+    footer {
+      padding: var(--space-12) 0 var(--space-16); color: var(--color-text-muted);
+    }
+    .footer-box {
+      display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-4);
+      padding-top: var(--space-6); border-top: 1px solid var(--color-divider);
+    }
+
+    @media (max-width: 920px) {
+      .hero-grid, .message-grid, .closing-layout { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .photo-slot, .photo-slot.large { grid-column: span 1; min-height: 220px; }
+      h1 { max-width: 100%; }
+    }
+
+    @media (max-width: 640px) {
+      .container { width: min(100% - 1.25rem, 1120px); }
+      .topbar-inner { align-items: flex-start; }
+      .hero { padding-top: var(--space-12); }
+      .hero-actions { flex-direction: column; }
+      .button { width: 100%; }
+      .gallery-grid, .mini-gallery { grid-template-columns: 1fr; }
+      .photo-slot, .photo-slot.large, .mini-gallery .photo-slot { min-height: 240px; }
+      .letter-card, .wish-card, .gallery-card, .tips-card, .hero-card { padding: var(--space-5); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Lewati ke isi</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand" aria-label="Logo ucapan ulang tahun">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 21s-6.7-4.35-9.2-8.37C.82 9.5 2.2 5.5 5.74 4.4c2.28-.7 4.42.17 5.56 1.95 1.14-1.78 3.28-2.65 5.56-1.95 3.54 1.1 4.92 5.1 2.94 8.23C18.7 16.65 12 21 12 21Z"></path>
+          </svg>
+        </div>
+        <span>For Juliana</span>
+      </div>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Ganti tema">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">🎂 Ulang tahun ke-28 Juliana Sihombing</div>
+          <h1>Selamat ulang tahun untuk perempuan yang membuat hariku selalu lebih hangat.</h1>
+          <p>
+            Hari ini spesial karena dunia merayakan kelahiran kamu, dan aku juga mau merayakan semua hal indah yang kamu bawa ke hidupku:
+            tawa lucu, perhatian kecil, dan momen romantis yang selalu ingin kuingat lama.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#surat">Baca ucapan</a>
+            <a class="button button-secondary" href="#galeri">Lihat tempat foto</a>
+            <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; margin-top: 0.5rem;">
+              <button
+                type="button"
+                class="button button-primary"
+                onclick="toggleMusic()"
+              >
+                Play / Pause Musik
+              </button>
+              <span style="font-size: 0.9rem; color: var(--color-text-muted);" id="music-status">
+                Musik belum diputar.
+              </span>
+            </div>
+
+            <!-- Audio background -->
+            <audio
+              id="background-music"
+              src="assets/musik.mp3"
+              loop
+            >
+              Browser kamu tidak mendukung elemen audio.
+            </audio>
+            </div>
+        </div>
+
+        <div class="hero-card">
+          <figure class="couple-frame">
+            <!-- Ganti dengan foto utama kalian -->
+            <img src="assets/foto-utama.jpeg" width="900" height="1100" loading="eager" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SURAT -->
+    <section id="surat">
+      <div class="container message-grid">
+        <article class="letter-card">
+          <h2 class="section-title">Ucapan untuk Juliana</h2>
+          <p>
+            Selamat ulang tahun yang ke-28, Juliana Sihombing. Semoga di usia yang baru ini kamu selalu dikelilingi kebahagiaan, kesehatan, dan hal-hal baik yang datang tanpa henti.
+          </p>
+          <p>
+            Terima kasih karena sudah menjadi seseorang yang begitu berarti. Kamu bukan cuma hadir di hidupku, tapi juga bikin banyak hari terasa lebih ringan, lebih lucu, dan lebih penuh warna.
+          </p>
+          <p>
+            Aku berharap semua doa baik yang kamu simpan dalam hati bisa satu per satu terwujud. Semoga langkahmu selalu dimudahkan, senyummu selalu dijaga, dan cinta kita terus bertumbuh dengan cara yang manis dan tulus.
+          </p>
+          <p>
+            Tetap jadi Juliana yang aku kenal: kuat, lembut, cantik, dan selalu punya cara unik untuk bikin aku kangen. Hari ini milikmu, jadi nikmati semua perhatian, semua doa, dan semua cinta yang datang untukmu.
+          </p>
+          <p class="signature">Dengan cinta, dari orang yang selalu sayang kamu. 💗</p>
+        </article>
+
+        <aside class="wish-card">
+          <h2 class="section-title">Harapan kecil untukmu</h2>
+          <ul class="wish-list">
+            <li><span>01</span><div>Semoga setiap rencana baikmu berjalan lancar dan membawa kamu ke tempat yang kamu impikan.</div></li>
+            <li><span>02</span><div>Semoga tawa kita tetap sering, bahkan dari hal-hal receh yang cuma kita berdua yang paham.</div></li>
+            <li><span>03</span><div>Semoga hubungan kita makin dewasa, makin hangat, dan makin penuh cerita baik.</div></li>
+            <li><span>04</span><div>Semoga di tahun ini kamu lebih sering merasa dicintai, dihargai, dan ditemani.</div></li>
+            <li><span>05</span><div>Semoga di tahun depan apa yang kita rencanakan terlaksana ini paling penting hehe.</div></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- GALERI FOTO -->
+    <section id="galeri">
+      <div class="container">
+        <h2 class="section-title">Galeri kenangan berdua</h2>
+        <p class="section-copy">
+          Di sini semua foto romantis, lucu, dan candid kita kumpulkan, supaya setiap kali kamu buka halaman ini kamu bisa ingat lagi momen-momen kecil yang bikin kita tetap dekat.
+        </p>
+
+        <div class="gallery-card">
+          <div class="gallery-grid">
+            <figure class="photo-slot large">
+              <img src="assets/foto-5.png" alt="Foto kenangan romantis pertama" width="1200" height="900" loading="lazy">
+              <figcaption class="slot-label">Foto Favorit Ivan</figcaption>
+            </figure>
+            <figure class="photo-slot">
+              <img src="assets/foto-2.jpeg" alt="Foto lucu kalian berdua" width="900" height="900" loading="lazy">
+              <figcaption class="slot-label">Rawr Mama Gigit Nih auuuu...</figcaption>
+            </figure>
+            <figure class="photo-slot">
+              <img src="assets/foto-3.png" alt="Foto candid pasangan" width="900" height="900" loading="lazy">
+              <figcaption class="slot-label">Masih Mau mama gigit nih auu...</figcaption>
+            </figure>
+            <figure class="photo-slot">
+              <img src="assets/foto-7.jpeg" alt="Foto saat quality time bersama" width="900" height="900" loading="lazy">
+              <figcaption class="slot-label">Frist Time Touring walau ngambek xixi</figcaption>
+            </figure>
+            <figure class="photo-slot large">
+              <img src="assets/foto-4.jpeg" alt="Foto perjalanan atau kencan" width="1200" height="900" loading="lazy">
+              <figcaption class="slot-label">Hehew Remember This?</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINI GALERI + VIDEO + MUSIK -->
+    <section id="media">
+      <div class="container closing-layout">
+        <!-- MINI GALERI -->
+        <div class="mini-gallery">
+          <figure class="photo-slot">
+            <img src="assets/foto-8.png" alt="Foto manis pasangan" width="900" height="900" loading="lazy">
+            <figcaption class="slot-label">senyum favorit Ivan.</figcaption>
+          </figure>
+          <figure class="photo-slot">
+            <img src="assets/foto-6.jpeg" alt="Foto lucu pasangan" width="900" height="900" loading="lazy">
+            <figcaption class="slot-label">Mukbang Neng?</figcaption>
+          </figure>
+        </div>
+
+        <!-- VIDEO + MUSIK -->
+        <article class="tips-card">
+          <h2 class="section-title">Hehew Ucul</h2>
+          <p class="section-copy">
+            Supaya momen ini makin hidup, di sini ada video pendek kita yang lucu yang bisa kamu play sambil lihat foto-foto dan baca ucapan.
+          </p>
+
+          <!-- Video pendek -->
+          <video
+            id="video-kenangan"
+            width="100%"
+            controls
+            loop
+            poster="assets/video-poster.jpg"
+            style="border-radius: 1rem; border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); margin-bottom: 1rem;"
+          >
+            <source src="assets/vedio-2.mov" type="video/mp4">
+            Browser kamu tidak mendukung video HTML5.
+          </video>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      const toggle = document.querySelector('[data-theme-toggle]');
+      const root = document.documentElement;
+      let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      root.setAttribute('data-theme', theme);
+
+      const renderIcon = () => {
+        toggle.innerHTML = theme === 'dark'
+          ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>'
+          : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Aktifkan mode terang' : 'Aktifkan mode gelap');
+      };
+
+      renderIcon();
+      toggle.addEventListener('click', function () {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        renderIcon();
+      });
+    })();
+
+    // Musik background
+    const audio = document.getElementById('background-music');
+    const statusText = document.getElementById('music-status');
+    let musicStarted = false;
+
+    function updateStatus() {
+      if (!statusText) return;
+      if (audio.paused) {
+        statusText.textContent = 'Musik sedang berhenti.';
+      } else {
+        statusText.textContent = 'Musik sedang diputar. 💗';
+      }
+    }
+
+    function toggleMusic() {
+      if (audio.paused) {
+        audio.play().then(() => {
+          musicStarted = true;
+          updateStatus();
+        }).catch(() => {
+          updateStatus();
+        });
+      } else {
+        audio.pause();
+        updateStatus();
+      }
+    }
+
+    // Mulai musik sekali setelah klik pertama (supaya tidak diblokir autoplay)
+    document.addEventListener('click', function startOnClick() {
+      if (!musicStarted) {
+        audio.play().then(() => {
+          musicStarted = true;
+          updateStatus();
+        }).catch(() => {});
+      }
+      document.removeEventListener('click', startOnClick);
+    }, { once: true });
+  </script>
+</body>
+</html>
